@@ -26,6 +26,8 @@ def main():
     with col1:
         #meal plan
         st.subheader("Anatomy Topic Analysis:")
+
+        # write output in this command st.markdown("") rather than st.text("")
         
         st.divider()
 
@@ -36,12 +38,15 @@ def main():
     with col2:
         #Exercise plan
         st.subheader("Question Generation:")
+        # write output in this command st.markdown("") rather than st.text("")
+
         
 
         st.divider()
 
         st.subheader("Anatomical Structure Image Analysis and Description:")
-        
+        # write output in this command st.markdown("") rather than st.text("")
+
 
         st.divider()
 

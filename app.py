@@ -6,7 +6,7 @@ import streamlit as st
 def main():
     st.set_page_config(page_title="GlucoGuide", layout="wide")
     #st.title("AnatomyMentor")
-    st.image("images/image.png")
+    st.image("images/image.png", width = 250)
     st.markdown("*AnatomyMentor* Our anatomy tutoring app is designed to assist medical students in learning complex anatomical concepts with ease. Through interactive lessons, visual aids, and personalized learning features, students can delve into various anatomy topics, such as nerves, muscles, and organs. The app also offers question generation for practice and incorporates image processing capabilities to analyze uploaded anatomical structure images. By leveraging the power of AI, our app aims to provide comprehensive and tailored support to enhance the anatomy learning experience for students.")
 
 
